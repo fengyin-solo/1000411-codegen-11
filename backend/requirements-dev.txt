@@ -1,0 +1,3 @@
+# 仅开发/校验脚本需要（verify_import.py 用到 FastAPI 的 TestClient）
+-r requirements.txt
+httpx>=0.27

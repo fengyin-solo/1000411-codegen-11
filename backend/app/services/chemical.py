@@ -8,6 +8,8 @@ from app.store import store
 MODULE = "chemical"
 REQUIRED_FIELDS = ["单据编号", "药剂名称", "规格型号"]
 STATUS_ORDER = ["待审核", "已审核", "已出入库", "已作废"]
+# 已出入库单据才参与结存滚动；导入重算与既有动作都以这个状态为准
+POSTED_STATUS = "已出入库"
 ACTION_RULES = {"审核单据": "已审核", "确认出入库": "已出入库", "作废单据": "已作废"}
 NEGATIVE_ACTIONS = ["作废单据"]
 

@@ -85,3 +85,6 @@ desktop.ini
 *.db
 *.pid
 *.seed
+
+# ===== 药剂导入批次暂存与对账归档（运行期生成） =====
+backend/var/
