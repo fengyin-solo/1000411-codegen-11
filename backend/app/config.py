@@ -17,6 +17,8 @@ class Settings:
     )
     page_size_default: int = 20
     page_size_max: int = 200
+    # 单据导入的对账文件归档目录（相对于后端启动目录）。
+    archive_dir: str = "var/archives"
 
 
 settings = Settings()

@@ -85,3 +85,7 @@ desktop.ini
 *.db
 *.pid
 *.seed
+
+# ===== 药剂导入对账归档 =====
+backend/var/
+var/
